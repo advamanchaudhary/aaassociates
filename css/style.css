@@ -1,0 +1,13 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+body{background:#f7f7f9;color:#222;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:20px}
+.site-header{background:#0b4d6c;color:#fff;padding:20px 0}
+.site-header h1{margin:0;font-size:28px}
+.site-header .tagline{margin-top:6px;opacity:.9}
+.site-header nav{margin-top:10px}
+.site-header nav a{color:#dff3ff;margin-right:12px;text-decoration:none}
+main h2{margin:18px 0 10px}
+.services-list{list-style:none;margin-top:12px}
+.services-list li{background:#fff;border:1px solid #e3e6ea;padding:12px;margin-bottom:10px;border-radius:6px}
+.site-footer{margin-top:30px;padding:12px 0;text-align:center;color:#6b6b6b}
+@media (max-width:600px){.container{padding:12px}.site-header h1{font-size:20px}}
