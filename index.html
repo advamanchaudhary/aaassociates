@@ -8,45 +8,129 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1>A&amp;A Associate</h1>
-      <p class="tagline">Advocate Aman Chaudhary</p>
-      <nav>
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="images/justice.svg" alt="Justice logo" class="logo-icon logo-justice">
+        <div>
+          <h1>A&amp;A Associate</h1>
+          <p class="tagline">Advocate Aman Chaudhary</p>
+        </div>
+      </div>
+      <nav class="main-nav">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
       </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
 
   <main class="container">
     <section id="about">
-      <h2>About The Firm</h2>
-      <p>A&amp;A Associate is a legal practice led by Advocate <strong>Aman Chaudhary</strong>. We provide practical, experienced legal advice across multiple practice areas. As the firm grows, these pages will expand to reflect our experience and client work.</p>
+      <div class="about-grid">
+        <div class="about-text">
+            <div class="bilingual stacked">
+              <div class="col hi">
+                <h2>फर्म के बारे में</h2>
+                <p>A&amp;A एसोसिएट एक विधिक कार्यालय है जिसकी स्थापना व्यक्तियों और व्यवसायों को स्पष्ट, सुलभ कानूनी मार्गदर्शन प्रदान करने के लिए की गई है। अधिवक्ता <strong>अमन चौधरी</strong> के नेतृत्व में, फर्म ग्राहक-प्रथम समाधान, सरल भाषा में सलाह, और अदालत के अंदर तथा बाहर त्वरित प्रतिनिधित्व पर ध्यान देती है। हम प्रत्येक मामले के लिए स्पष्ट संचार, समय पर अपडेट और व्यावहारिक अगले कदमों को प्राथमिकता देते हैं।</p>
+              </div>
+              <div class="col en">
+                <h2>About The Firm</h2>
+                <p>A&amp;A Associate is a law office founded to provide clear, accessible legal guidance to individuals and businesses. Led by Advocate <strong>Aman Chaudhary</strong>, the firm focuses on client-first solutions, plain-language advice, and responsive representation in and out of court. We prioritise clear communication, timely updates, and practical next steps for every matter.</p>
+              </div>
+            </div>
+        </div>
+        <div class="about-image">
+          <img src="images/courtroom.svg" alt="Courtroom illustration">
+        </div>
+      </div>
     </section>
 
     <section id="expertise">
-      <h2>Expertise</h2>
-      <ul>
-        <li>Civil Litigation</li>
-        <li>Criminal Defense</li>
-        <li>Property &amp; Real Estate Disputes</li>
-        <li>Family Law</li>
-        <li>Legal Drafting &amp; Documentation</li>
-      </ul>
+      <button class="accordion">Practice Areas</button>
+      <div class="panel">
+          <div class="bilingual">
+            <div class="col hi">
+              <h2>विशेषज्ञता</h2>
+              <ul class="bullet-list">
+                <li>नागरिक मुकदमे (Civil Litigation)</li>
+                <li>आपराधिक रक्षा (Criminal Defense)</li>
+                <li>संपत्ति और रियल एस्टेट विवाद (Property &amp; Real Estate Disputes)</li>
+                <li>पारिवारिक कानून (Family Law)</li>
+                <li>कानूनी प्रारूपण और दस्तावेज़ीकरण (Legal Drafting &amp; Documentation)</li>
+              </ul>
+            </div>
+            <div class="col en">
+                <h2>Expertise</h2>
+                <ul class="bullet-list">
+                  <li>Civil Litigation</li>
+                  <li>Criminal Defense</li>
+                  <li>Property &amp; Real Estate Disputes</li>
+                  <li>Family Law</li>
+                  <li>Legal Drafting &amp; Documentation</li>
+                </ul>
+            </div>
+          </div>
+      </div>
     </section>
 
     <section id="solutions">
-      <h2>Solutions</h2>
-      <p>We offer case evaluation, representation in court, legal documentation, negotiation, and tailored legal strategies focused on achieving practical results for our clients.</p>
+      <button class="accordion">How We Help</button>
+      <div class="panel">
+          <div class="bilingual">
+            <div class="col hi">
+              <h2>समाधान</h2>
+              <ul class="bullet-list">
+                <li>मामला मूल्यांकन और कानूनी सलाह</li>
+                <li>अदालत में सभी चरणों पर प्रतिनिधित्व</li>
+                <li>कानूनी दस्तावेज़ और नोटिस का मसौदा तैयार करना</li>
+                <li>वार्ता और निपटान के प्रयास</li>
+                <li>अनुकूलित कानूनी रणनीतियाँ और कार्य योजना</li>
+                <li> जहाँ उपयुक्त हो वैकल्पिक विवाद समाधान (ADR)</li>
+              </ul>
+            </div>
+            <div class="col en">
+              <h2>Solutions</h2>
+              <ul class="bullet-list">
+                <li>Case evaluation and legal advice</li>
+                <li>Representation in court at all stages</li>
+                <li>Drafting legal documents and notices</li>
+                <li>Negotiation and settlement discussions</li>
+                <li>Tailored legal strategies and action plans</li>
+                <li>Alternative dispute resolution where suitable</li>
+              </ul>
+            </div>
+          </div>
+      </div>
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
-      <p><strong>Advocate:</strong> Aman Chaudhary</p>
-      <p><strong>Phone:</strong> <a href="tel:+919999397666">9999397666</a></p>
-      <p><strong>Email:</strong> <a href="mailto:advamanchaudhary77@gmail.com">advamanchaudhary77@gmail.com</a></p>
-      <p><strong>Address:</strong> Chamber no.- d776, District Session Court, Ghaziabad, UP</p>
+      <div class="bilingual">
+        <div class="col hi">
+          <h2>संपर्क</h2>
+          <p><strong>अधिवक्ता:</strong> अमन चौधरी</p>
+          <p><strong>फोन:</strong> <a href="tel:+919999397666">9999397666</a> <button class="copy-btn" data-copy="9999397666">कॉपी</button></p>
+          <p><strong>ईमेल:</strong> <a href="mailto:advamanchaudhary77@gmail.com">advamanchaudhary77@gmail.com</a> <button class="copy-btn" data-copy="advamanchaudhary77@gmail.com">कॉपी</button></p>
+          <p><strong>पता:</strong> कक्ष क्र. 776, जिला सत्र न्यायालय, गाजियाबाद, यूपी</p>
+          <p class="contact-shortcuts">
+            <a class="shortcut-btn" href="https://api.whatsapp.com/send?phone=919999397666" target="_blank" rel="noopener">WhatsApp पर चैट</a>
+            <a class="shortcut-btn" href="mailto:advamanchaudhary77@gmail.com">ईमेल भेजें</a>
+          </p>
+        </div>
+        <div class="col en">
+          <h2>Contact</h2>
+          <p><strong>Advocate:</strong> Aman Chaudhary</p>
+          <p><strong>Phone:</strong> <a href="tel:+919999397666">9999397666</a> <button class="copy-btn" data-copy="9999397666">Copy</button></p>
+          <p><strong>Email:</strong> <a href="mailto:advamanchaudhary77@gmail.com">advamanchaudhary77@gmail.com</a> <button class="copy-btn" data-copy="advamanchaudhary77@gmail.com">Copy</button></p>
+          <p><strong>Address:</strong> Chamber no. 776, District Session Court, Ghaziabad, UP</p>
+          <p class="contact-shortcuts">
+            <a class="shortcut-btn" href="https://api.whatsapp.com/send?phone=919999397666" target="_blank" rel="noopener">Chat on WhatsApp</a>
+            <a class="shortcut-btn" href="mailto:advamanchaudhary77@gmail.com">Send Email</a>
+          </p>
+        </div>
+      </div>
     </section>
+
+    
   </main>
 
   <footer class="site-footer">
@@ -54,5 +138,6 @@
       <p>&copy; A&amp;A Associate. All rights reserved.</p>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>

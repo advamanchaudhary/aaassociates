@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" width="320" height="240">
+  <rect x="4" y="44" width="152" height="60" rx="4" fill="#fff" stroke="#d35400" stroke-width="2"/>
+  <rect x="12" y="8" width="136" height="32" rx="3" fill="#d35400"/>
+  <text x="80" y="30" font-size="12" fill="#fff" text-anchor="middle" font-family="Arial">DISTRICT COURT</text>
+  <g stroke="#d35400" stroke-width="1.5" fill="none">
+    <path d="M24 52v36"/>
+    <path d="M44 52v36"/>
+    <path d="M64 52v36"/>
+    <path d="M84 52v36"/>
+    <path d="M104 52v36"/>
+    <path d="M124 52v36"/>
+  </g>
+  <g fill="#0b4d6c">
+    <rect x="28" y="64" width="12" height="6" rx="1"/>
+    <rect x="124" y="64" width="12" height="6" rx="1"/>
+    <circle cx="80" cy="40" r="6" fill="#fff" stroke="#d35400" stroke-width="1.5"/>
+  </g>
+</svg>
